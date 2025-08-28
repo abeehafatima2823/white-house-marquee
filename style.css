@@ -6,6 +6,24 @@ body {
   background: #fffaf5;
   color: #333;
 }
+/* Logo styling */
+.logo {
+  width: 120px;   /* adjust size */
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px; /* optional: makes it look polished */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* optional: subtle shadow */
+}
+.about-logo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-logo img {
+  max-width: 180px; /* adjust size */
+  height: auto;
+  border-radius: 10px; /* optional, makes it smoother */
+}
 
 /* Hero banner */
 .hero {
